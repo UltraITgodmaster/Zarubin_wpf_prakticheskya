@@ -31,6 +31,7 @@ namespace Zarubin_wpf_prakticheskya
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            /////
             Itog.Text += Environment.NewLine + "Практическая работа 2";
             double x = double.Parse(X.Text);
             Itog.Text += Environment.NewLine + "X = " + x.ToString();
